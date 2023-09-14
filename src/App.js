@@ -1,14 +1,10 @@
-// import './App.css';
-import UseReducer from "./component/UseReducer";
-// import NameList from "./component/UseState";
-// import UserEffect from "./component/UserEffect";
+import './App.css';
+import LandingPage from "./havardPrac/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      {/* <NameList/> */}
-      {/* <UserEffect/> */}
-      <UseReducer />
+      <LandingPage />
     </div>
   );
 }
